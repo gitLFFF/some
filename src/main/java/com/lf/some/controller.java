@@ -8,6 +8,7 @@ public class controller {
     @GetMapping("/index")
     public String getIndex(){
         System.out.println("最近冲突解决流程");
+        System.out.println("我自己修改的代码");
         //冲突
         return "helloword";
     }
