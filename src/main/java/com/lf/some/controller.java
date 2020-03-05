@@ -13,8 +13,7 @@ public class controller {
     }
     @GetMapping("/index1")
     public String getIndex1(){
-        System.out.println("我人提交");
-        //冲突
+      
         return "helloword";
     }
 }
