@@ -9,6 +9,7 @@ public class controller {
     public String getIndex(){
         System.out.println("最近冲突解决流程");
         System.out.println("我自己修改的代码");
+        System.out.println("我自己修改的代码2");
         //冲突
         return "helloword";
     }
