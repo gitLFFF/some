@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class controller {
     @GetMapping("/index")
     public String getIndex(){
-        
+        System.out.println("他人提交");
         //冲突
         return "helloword";
     }
